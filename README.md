@@ -1,5 +1,5 @@
 # Trading bot using Alpaca Trading and Lumibot API
-This is a quick python tutorial on how to setup a trading bot connected with Alpaca Trading, using Lumibot, allowing to start a trading bot with no actual money, for educational purposes.
+This is a quick python tutorial on how to setup a trading bot connected with Alpaca Trading, using Lumibot, allowing to start a trading bot with no actual money.
 
 **Disclaimer: This tutorial is for educational purposes only and should not be interpreted as trading advice. The provided code and datasets are used for visualization and experimentation purposes and may not represent a realistic trading bot.**
 
