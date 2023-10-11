@@ -9,7 +9,7 @@ By following the steps below, you'll be able to understand the code and get star
 
 Step 1: Create an Alpaca Account
 First, you'll need to create an account with Alpaca to access their trading API. If you haven't already signed up, you can do so by visiting the Alpaca sign-up page.
-
+[Sign up here](https://app.alpaca.markets/signup)
 Fill out the required information to create your Alpaca account.
 
 Once your account is created, log in to your Alpaca dashboard.
