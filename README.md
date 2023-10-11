@@ -1,5 +1,5 @@
 # Trading bot using Alpaca Trading and Lumibot API
-This is a quick python tutorial on how to setup a trading bot connected with Alpaca Trading, using Lumibot, allowing to start a trading bot with no actual money.
+This is a quick python tutorial on how to setup a trading bot connected with Alpaca Trading, using Lumibot, allowing to start a trading bot with no actual money, for educational purposes.
 
 **Disclaimer: This tutorial is for educational purposes only and should not be interpreted as trading advice. The provided code and datasets are used for visualization and experimentation purposes and may not represent a realistic trading bot.**
 
@@ -59,6 +59,6 @@ if __name__ == "__main__":
 ```
 # Can you figure out what the code from above does?
 It retrieves the last price of AAPL from ALPACA trading, it runs every '1M' so every minute...
-
+![here is what it looks like](/photo_3.png)
 # What could be next?
 Using a higher variety of pre-written functions listed on lumibot's documentation e.g to get out of position, buy, short stocks or even retrive historical data of prices (however this might require you to upgrade to the paid version).
