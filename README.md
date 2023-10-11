@@ -14,7 +14,7 @@ Once your account is created, log in to your Alpaca dashboard.
 
 Step 2: Generate API Key and Secret:
 Here's how to do it:
-In your Alpaca dashboard, navigate to the "API" section. You can find it in the top navigation bar or in the sidebar menu, depending on the dashboard's layout.
+In your Alpaca dashboard, navigate to the "Quick Trade" section. You can find it in the top navigation bar or in the sidebar menu, depending on the dashboard's layout.
 ![Generating API Key and Secret](/photo_1.png)
 
 Click on "View API Keys" to generate a new API key and secret pair.
