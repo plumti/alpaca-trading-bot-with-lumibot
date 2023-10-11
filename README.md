@@ -27,3 +27,41 @@ Once generated, make sure to copy and securely store your API key and secret. Yo
 
 Step 3: Configuring Your Trading Bot
 With your Alpaca API key and secret in hand, you're now ready to configure your trading bot using the Lumibot framework.
+I recommend looking at the "get started" part of the documentation at this stage:
+[here](https://lumibot.lumiwealth.com/getting_started.html#getting-started).
+# Have a look at lumibot's documentation it explains it all
+```bash
+#This is before you run the code, assuming you already have python installed (e.g python and command line, or an IDE such as Visual Studio Code with python and its terminal)
+pip install lumibot
+--------------------------------------------
+from lumibot.brokers import Alpaca 
+from lumibot.strategies import Strategy
+from lumibot.traders import Trader
+from lumibot.entities import Asset
+ALPACA_CONFIG = {
+    "API_KEY": "ENTER_API_KEY",
+    "API_SECRET": "ENTER_API_SECRET",
+    "ENDPOINT": "https://paper-api.alpaca.markets",
+}
+class MeanReversionStrategy(Strategy): 
+    def initialize(self): 
+        self.symbol = "AAPL"
+        self.sleeptime = "1M"
+    def on_trading_iteration(self):
+        if broker.is_market_open():
+            last_price = self.get_last_price(self.symbol)
+            print(f"Last Price: {last_price:.2f}")
+        else:
+            print("market is closed")
+if __name__ == "__main__":
+    broker = Alpaca(ALPACA_CONFIG)
+    strategy = MeanReversionStrategy(broker=broker)
+    trader = Trader()
+    trader.add_strategy(strategy)
+    trader.run_all()
+```
+# Can you figure out what the code from above does?
+It retrieves the last price of AAPL from ALPACA trading, it runs every '1M' so every minute...
+
+# What could be next?
+Using a higher variety of pre-written functions listed on lumibot's documentation e.g to get out of position, buy, short stocks or even retrive historical data of prices (however this might require you to upgrade to the paid version).
