@@ -62,3 +62,7 @@ It retrieves the last price of AAPL from ALPACA trading, it runs every '1M' so e
 ![here is what it looks like](/photo_3.png)
 # What could be next?
 Using a higher variety of pre-written functions listed on lumibot's documentation e.g to get out of position, buy, short stocks or even retrive historical data of prices (however this might require you to upgrade to the paid version).
+## Sources
+
+- [Source 1](https://alpaca.markets/docs/trading/)
+- [Source 2](https://lumibot.lumiwealth.com/)
